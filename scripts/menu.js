@@ -8,10 +8,6 @@ function quit() {
     window.location.href = 'index.html'; 
 };
 
-function go2Description(playerId) {
-    window.location = `detalhes.html?id=${playerId}`;
-}
-
 function showLoader() {
     document.getElementById('loading').style.display = 'block';
 }

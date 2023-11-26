@@ -21,9 +21,9 @@
 
 	<div id="area-menu">
 	  <div style="position: relative; top: 40%;">
-	    <button id = "btn-feminino" onclick = "goBack()">Feminino</button> |
-	    <button id = "btn-masculino" onclick = "goBack()">Masculino</button> |
-	    <button id = "btn-completo" onclick = "goBack()">Elenco Completo</button> |
+	    <button id = "btn-feminino" onclick = "goBack('feminino')">Feminino</button> |
+	    <button id = "btn-masculino" onclick = "goBack('masculino')">Masculino</button> |
+	    <button id = "btn-completo" onclick = "goBack('all')">Elenco Completo</button> |
 	    <button id = "btn-sair" onclick = "quit()">Sair</button>
 	  </div>
 	</div>
@@ -34,14 +34,16 @@
 </header>
 
 <body>
+  <br><br><br>
   <div class = "container-details" id = "details">
     <div id="div-more-img">
       <img src="" alt="" id="more-img">
     </div>
     
     <div class="player-more">
-      <h3 id='more-name'></h3>
+      <h5 id='more-name'></h5>
       <p id='more-description'></p>
+      <p id='more-fullName'></p>
       <p id='more-years'></p>
       <p id='more-height'></p>
       <button id='more-btn' onclick = "goBack()">Voltar</button>

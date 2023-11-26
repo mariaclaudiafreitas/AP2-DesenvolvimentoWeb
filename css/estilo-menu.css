@@ -48,10 +48,25 @@ body {
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
 }
 
-.plyer-more {
-  width: 500px;
-  margin-left: 50px;
+.player-more {
+  width: 600px;
   float: right;
+}
+
+#more-btn {
+  margin-top: 5px;
+  text-decoration: none;	
+	font-weight: bold;
+  background: #535151;
+  border: 0px;
+  width: 600px;
+  height: 40px;
+  border-radius: 5px
+}
+
+#more-btn:hover {
+  background: #000000;
+  color: #ffffff
 }
 
 #player-img {
@@ -129,6 +144,6 @@ h1,h2,h3,h4,h5,h6{
 }
 
 h5 {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
