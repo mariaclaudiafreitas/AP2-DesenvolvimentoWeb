@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+  <title>AP2 | Atletas Botafogo</title>
+
+  <link rel = "icon" type = "image/png" href = "images/escudo.png" sizes="16x16">
+  <link rel = "stylesheet" type = "text/css" href = "css/estilo-login.css">
+
+  <script src = "scripts/md5-min.js"></script>
+  <script src = "scripts/login.js"></script>
+</head>
+
+<body>
+
+  <div class = "container-login">
+
+    <div class = "area-logo">
+      <img id = "img-logo" width=250px src="images/logo.png">
+    </div>
+
+    <div class = "area-text">
+        <h1 id="t_login">Jogadores em 2023.02</h1>
+        <p id="desc_login">Criado com objetivos exclusivamente didáticos para a disciplina Desenvolvimento Web do Ibmec Rio.</p>
+    </div>
+
+    <div class = "area-login">
+        <form>
+            <input type = "password" id = "password" placeholder="Entre com a sua senha" onkeypress = "keyPressed(event)">
+            <input type = "button" id = "button" value = "Login" onclick = "checkPassword()">
+        </form>
+        <p id = "current-password">Entre com a senha: botafogo</p>
+  </div>
+</body>
+</html>

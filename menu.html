@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset = "UTF-8">
+  <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+
+  <title>AP2 | Atletas Botafogo</title>
+
+  <link rel = "icon" type = "image/png" href = "images/escudo.png" sizes="16x16">
+  <link rel = "stylesheet" type = "text/css" href = "css/estilo-menu.css">
+
+  <script src = "scripts/menu.js"></script>
+  <script src = "scripts/getPlayers.js"></script>
+</head>
+
+<header class = "container-menu">
+  <div id="area-cabecalho">
+    <div id="area-logo">
+      <img width=150px src="images/logo.png">
+	</div>
+
+	<div id="area-menu">
+	  <div style="position: relative; top: 40%;">
+	    <button id = "btn-feminino" onclick = "getAllData('feminino')">Feminino</button> |
+	    <button id = "btn-masculino" onclick = "getAllData('masculino')">Masculino</button> |
+	    <button id = "btn-completo" onclick = "getAllData('all')">Elenco Completo</button> |
+	    <button id = "btn-sair" onclick = "quit()">Sair</button>
+	  </div>
+	</div>
+
+	<div style="clear: both;"></div>
+  </div>
+  <hr>
+</header>
+
+<body>
+  <div class = "container-loading" id = "loading" style="display: none;">
+    <img id = "img-loading" width=200px src="images/loading.gif">
+  </div>
+
+  <div class = "container-allPlayers" id = "players"></div>
+
+</body>
+</html>

@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=swap');
+
+header{
+  background: #ffffff;
+}
+
+body {
+	background: #e6e6e6;
+  align-items: center;
+}
+
+.container-loading{
+  margin: auto auto;
+  float: left;
+}
+
+.container-allPlayers{
+  margin: 0;
+  padding: 0px;
+  align-items: center;
+  justify-content: center;
+  width: 1200px;
+  margin: auto auto;
+}
+
+.container-player {
+  width: 250px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+  text-align: center;
+  float: left;
+  margin: 20px;
+}
+
+.container-details {
+  width: 900px;
+  margin: auto auto;
+}
+
+#div-more-img {
+  float: left;
+}
+
+#more-img {
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.plyer-more {
+  width: 500px;
+  margin-left: 50px;
+  float: right;
+}
+
+#player-img {
+  width: 250px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+#player-name {
+  margin: 5px;
+}
+
+#player-btn {
+  margin-top: 5px;
+  font-size: 16px;
+  color: #535151;
+  background: #ffffff;
+  text-decoration: none;	
+	font-weight: bold;
+  border: 0px;
+  width: 250px;
+  height: 35px;
+  border-radius: 0px 0px 10px 10px
+}
+
+#player-btn:hover {
+  background: #000000;
+  color: #ffffff
+}
+
+#area-cabecalho {
+	text-align: center;
+	width: 920px;
+	margin: 0px auto;
+}
+
+#area-logo{
+	width: 280px;
+  align-items: right;
+	float: left;
+}
+
+#area-menu {
+  width: 550px;
+	height: 110px;
+	padding: 20px;
+	float: right;
+	position: relative;
+
+  font-size: 20px;
+	text-align: center;
+}
+
+#area-cabecalho button {
+  padding: 5px 10px 5px 10px;
+	text-decoration: none;	
+	font-weight: bold;
+  background: #ffffff;
+  border: 0px;
+}
+
+#area-cabecalho button:hover {
+	color: #ffffff;
+	background: #000;
+	text-decoration: none;
+}
+
+#area-cabecalho p,button {
+  font-size: 20px;
+  font-family: 'Neuton', serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Neuton', sans-serif;
+  font-weight: normal;
+}
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+}
